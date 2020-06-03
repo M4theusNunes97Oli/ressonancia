@@ -6,7 +6,10 @@ const routes: RouteConfig[] = [
     component: () => import('layouts/MainLayoutNoDrawer.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
-      { path: 'form', component: () => import('pages/Form.vue') },
+      { path: 'menu', component: () => import('pages/Menu.vue') },
+      { path: 'select', component: () => import('pages/MenuSelect.vue') },
+      { path: 'history', component: () => import('pages/History.vue') },
+      { path: 'evaluate', component: () => import('pages/Evaluate.vue') },
       { path: 'cutscreen', component: () => import('pages/CutScreen.vue') },
       { path: 'result', component: () => import('pages/Result.vue') }
     ],

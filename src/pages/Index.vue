@@ -9,7 +9,7 @@
           />
         </div>
         <div class="buttonI">
-          <q-btn color="amber-13" text-color="black" icon-right="send" label="COMEÇAR" to="form"/>
+          <q-btn color="amber-13" text-color="black" icon-right="send" label="BEM-VINDO" to="menu"/>
         </div>
       </q-card-section>
     </q-card>
